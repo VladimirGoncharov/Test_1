@@ -15,6 +15,10 @@ class NewViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
