@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E743DBAC1BC3F76300EBBA0F /* SomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743DBAB1BC3F76300EBBA0F /* SomeController.swift */; settings = {ASSET_TAGS = (); }; };
 		E7A23C241BBC053F00430572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A23C231BBC053F00430572 /* AppDelegate.swift */; };
 		E7A23C261BBC053F00430572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A23C251BBC053F00430572 /* ViewController.swift */; };
 		E7A23C291BBC053F00430572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A23C271BBC053F00430572 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E743DBAB1BC3F76300EBBA0F /* SomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeController.swift; sourceTree = "<group>"; };
 		E7A23C201BBC053F00430572 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A23C231BBC053F00430572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A23C251BBC053F00430572 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E7A23C2F1BBC053F00430572 /* LaunchScreen.storyboard */,
 				E7A23C321BBC053F00430572 /* Info.plist */,
 				E7A23C2A1BBC053F00430572 /* Test.xcdatamodeld */,
+				E743DBAB1BC3F76300EBBA0F /* SomeController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				E7A23C261BBC053F00430572 /* ViewController.swift in Sources */,
 				E7A23C241BBC053F00430572 /* AppDelegate.swift in Sources */,
 				E7A23C2C1BBC053F00430572 /* Test.xcdatamodeld in Sources */,
+				E743DBAC1BC3F76300EBBA0F /* SomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +489,7 @@
 				E7A23C4D1BBC053F00430572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7A23C4E1BBC053F00430572 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				E7A23C501BBC053F00430572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7A23C511BBC053F00430572 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				E7A23C531BBC053F00430572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
